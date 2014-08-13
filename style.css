@@ -1,0 +1,62 @@
+html,body{
+	height: 100%;
+	/*background-attachment:fixed;*/
+	/*background-image: linear-gradient( -20deg, rgb(94, 149, 211), rgb(18, 58, 108)) ;*/
+	font-family: 'Roboto', sans-serif;
+	background: url(back2.jpg) no-repeat center center fixed ; 
+	-webkit-background-size: cover;
+   	-moz-background-size: cover;
+   	-o-background-size: cover;
+   	background-size: cover;
+}
+a:hover {
+	text-decoration: none;
+	cursor:pointer;
+}
+a{
+	color:yellow;
+}
+#avatar{
+	border-radius: 50%;
+	width: 60px;
+	height: 60px;	
+}
+#name{
+	color:#FFFFFF;
+
+}
+p{
+	color:#FFFFFF;
+	font-size:16px;
+}
+h1,h2{
+	color:#FFFFFF;
+	text-shadow: 0px 0px 6px rgba(255,255,255,0.7);
+}
+.page{
+	padding-top: 60px;
+position: relative;
+	height: 100%;
+}
+#Links{
+	font-size:20px;
+}
+.navbar.navbar-inverse.navbar-fixed-top li > a:hover {
+	background-color: #888888;
+	text-shadow: 0px 0px 6px rgba(255,255,255,0.7);
+}
+.pic{
+	position: relative;
+	width:200px;
+	height:200px;
+	border-radius: 15%;
+}
+#headpic{
+	-moz-box-shadow:4px 4px 3px rgba(20%,20%,40%,0.5);
+	-webkit-box-shadow:4px 4px 3px rgba(20%,20%,40%,0.5);
+	box-shadow:4px 4px 3px rgba(20%,20%,40%,0.5);
+}
+.navbar-brand,.navbar-nav > li > a {
+	line-height: 30px;
+	height:60px;
+}
